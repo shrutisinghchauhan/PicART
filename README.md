@@ -1,8 +1,8 @@
-# 📸 Pixora – Image Sharing Platform
+# 📸 Picart – Image Sharing Platform
 
 ## 🚀 Overview
 
-**Pixora** is a modern, full-featured **image sharing platform** designed for photographers, artists, and content creators. It provides a seamless experience to upload, explore, and interact with visual content while focusing on performance and user experience.
+**Picart** is a modern, full-featured **image sharing platform** designed for photographers, artists, and content creators. It provides a seamless experience to upload, explore, and interact with visual content while focusing on performance and user experience.
 
 ---
 
@@ -42,8 +42,8 @@
 
 ## 📂 Project Structure
 
-```id="j29dk2"
-Pixora/
+```id="q7l9z2"
+Picart/
 │── frontend/
 │── backend/
 │── public/
@@ -60,9 +60,9 @@ Pixora/
 
 ### 1️⃣ Clone the Repository
 
-```bash id="m8dk21"
-git clone https://github.com/your-username/pixora.git
-cd pixora
+```bash id="p1n4w8"
+git clone https://github.com/your-username/picart.git
+cd picart
 ```
 
 ---
@@ -71,14 +71,14 @@ cd pixora
 
 #### For Backend
 
-```bash id="z91ksl"
+```bash id="k2d9f0"
 cd backend
 npm install
 ```
 
 #### For Frontend
 
-```bash id="l2p0as"
+```bash id="m3x8z1"
 cd frontend
 npm install
 ```
@@ -89,7 +89,7 @@ npm install
 
 Create a `.env` file in the backend folder and add:
 
-```env id="p9slx1"
+```env id="r9t6y2"
 PORT=5000
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
@@ -102,14 +102,14 @@ CLOUDINARY_URL=your_cloud_storage_url
 
 #### Start Backend
 
-```bash id="o3lq12"
+```bash id="c4v7b9"
 cd backend
 npm start
 ```
 
 #### Start Frontend
 
-```bash id="p92kls"
+```bash id="n8k5q3"
 cd frontend
 npm start
 ```
